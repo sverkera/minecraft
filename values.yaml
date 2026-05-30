@@ -1,0 +1,19 @@
+minecraft:
+  minecraftServer:
+    eula: "TRUE"
+    # Message of the Day
+    motd: "Welcome to Grace's Minecraft server!"
+    # A comma-separated list of player names who should be admins.
+    ops: "grace"
+
+    ## The type of Minecraft server to run, check for related settings below
+    ## Common types: "VANILLA", "FABRIC", "FORGE", "SPIGOT", "BUKKIT", "PAPER",
+    ## "FTBA", "SPONGEVANILLA", "AUTO_CURSEFORGE"
+    ## ref: https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms
+    type: "VANILLA"
+
+    serviceType: "LoadBalancer"
+
+  persistence:
+    dataDir:
+      enabled: true
