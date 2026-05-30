@@ -16,7 +16,7 @@ minecraft:
 
   serviceAnnotations:
     metallb.io/address-pool: kubernetes-vip-ip-pool
-    metallb.io/allow-shared-ip: "kubernetes-vip-ip-pool"
+    #metallb.io/allow-shared-ip: "kubernetes-vip-ip-pool"
 
   persistence:
     dataDir:
