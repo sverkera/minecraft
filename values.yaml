@@ -14,6 +14,9 @@ minecraft:
 
     serviceType: "LoadBalancer"
 
+  serviceAnnotations:
+    metallb.io/address-pool: kubernetes-vip-ip-pool
+
   persistence:
     dataDir:
       enabled: true
