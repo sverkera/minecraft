@@ -12,11 +12,12 @@ minecraft:
     ## ref: https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms
     type: "VANILLA"
 
-    serviceType: "LoadBalancer"
+    serviceType: "NodePort"
+    nodePort: 25565
 
-  serviceAnnotations:
-    metallb.io/address-pool: kubernetes-vip-ip-pool
-    #metallb.io/allow-shared-ip: "kubernetes-vip-ip-pool"
+  #serviceAnnotations:
+  #  metallb.io/address-pool: kubernetes-vip-ip-pool
+  #  #metallb.io/allow-shared-ip: "kubernetes-vip-ip-pool"
 
   persistence:
     dataDir:
