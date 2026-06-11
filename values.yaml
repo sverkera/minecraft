@@ -10,10 +10,15 @@ minecraft:
     ## Common types: "VANILLA", "FABRIC", "FORGE", "SPIGOT", "BUKKIT", "PAPER",
     ## "FTBA", "SPONGEVANILLA", "AUTO_CURSEFORGE"
     ## ref: https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms
-    type: "VANILLA"
+    type: "AUTO_CURSEFORGE"
 
     serviceType: "NodePort"
     nodePort: 30000
+
+    autoCurseForge:
+      apiKey:
+        key: "$2a$10$GYahTvJRHFpImeXP3qiu8eaeESXMnh/qp9sKj3xc0tgGawk5pdKje"
+      pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
 
   #serviceAnnotations:
   #  metallb.io/address-pool: kubernetes-vip-ip-pool
