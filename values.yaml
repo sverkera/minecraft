@@ -35,3 +35,8 @@ minecraft:
     dataDir:
       enabled: true
       Size: 50Gi
+
+  startupProbe:
+    enabled: true
+    failureThreshold: 60
+    periodSeconds: 10
