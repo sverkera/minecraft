@@ -1,7 +1,7 @@
 minecraft:
   image:
     repository: itzg/minecraft-server
-    tag: "2021.20.0"
+    tag: "2021.20.0-java8"
     pullPolicy: IfNotPresent
 
   minecraftServer:
