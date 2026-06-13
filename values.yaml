@@ -1,7 +1,7 @@
 minecraft:
   image:
     repository: itzg/minecraft-server
-    tag: "2021.20.0-java8"
+    tag: "java8"
     pullPolicy: IfNotPresent
 
   minecraftServer:
@@ -15,7 +15,7 @@ minecraft:
     ## Common types: "VANILLA", "FABRIC", "FORGE", "SPIGOT", "BUKKIT", "PAPER",
     ## "FTBA", "SPONGEVANILLA", "AUTO_CURSEFORGE"
     ## ref: https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms
-    type: "CURSEFORGE"
+    type: "AUTO_CURSEFORGE"
 
     serviceType: "NodePort"
     nodePort: 30000
