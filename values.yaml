@@ -15,7 +15,7 @@ minecraft:
     ## Common types: "VANILLA", "FABRIC", "FORGE", "SPIGOT", "BUKKIT", "PAPER",
     ## "FTBA", "SPONGEVANILLA", "AUTO_CURSEFORGE"
     ## ref: https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms
-    type: "AUTO_CURSEFORGE"
+    type: "CURSEFORGE"
 
     serviceType: "NodePort"
     nodePort: 30000
