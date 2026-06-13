@@ -1,7 +1,7 @@
 minecraft:
   image:
     repository: itzg/minecraft-server
-    tag: "java8"
+    tag: "java16"
     pullPolicy: IfNotPresent
 
   minecraftServer:
