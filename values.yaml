@@ -27,3 +27,4 @@ minecraft:
   persistence:
     dataDir:
       enabled: true
+      Size: 50Gi
