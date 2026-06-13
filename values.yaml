@@ -1,4 +1,9 @@
 minecraft:
+  image:
+    repository: itzg/minecraft-server
+    tag: "java8-jdk"
+    pullPolicy: IfNotPresent
+
   minecraftServer:
     eula: "TRUE"
     # Message of the Day
