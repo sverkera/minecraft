@@ -6,6 +6,7 @@ minecraft:
 
   minecraftServer:
     version: "1.20.1"
+    memory: 8G
     eula: "TRUE"
     # Message of the Day
     motd: "Welcome to Grace's Minecraft server!"
@@ -27,7 +28,8 @@ minecraft:
       #pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
       #pageUrl: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-11"
       pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-3"
-      excludeMods: ["minemenu"]
+      excludeMods: 
+        - minemenu
 
   persistence:
     dataDir:
