@@ -1,11 +1,15 @@
 minecraft:
   image:
     repository: itzg/minecraft-server
-    tag: "java17"
+    tag: "java8"
     pullPolicy: IfNotPresent
 
+  resources:
+    requests:
+      cpu: 1
+
   minecraftServer:
-    version: "1.20.1"
+    version: "1.12.2"
     memory: 8G
     eula: "TRUE"
     # Message of the Day
@@ -25,9 +29,9 @@ minecraft:
     autoCurseForge:
       apiKey:
         key: "$2a$10$GYahTvJRHFpImeXP3qiu8eaeESXMnh/qp9sKj3xc0tgGawk5pdKje"
-      #pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
+      pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
       #pageUrl: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-11"
-      pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-3"
+      #pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-3"
       excludeMods: 
         - minemenu
 
@@ -38,5 +42,5 @@ minecraft:
 
   startupProbe:
     enabled: true
-    failureThreshold: 60
+    failureThreshold: 120
     periodSeconds: 10
