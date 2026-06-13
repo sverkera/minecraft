@@ -5,6 +5,7 @@ minecraft:
     pullPolicy: IfNotPresent
 
   minecraftServer:
+    version: "1.12.2"
     eula: "TRUE"
     # Message of the Day
     motd: "Welcome to Grace's Minecraft server!"
@@ -23,12 +24,9 @@ minecraft:
     autoCurseForge:
       apiKey:
         key: "$2a$10$GYahTvJRHFpImeXP3qiu8eaeESXMnh/qp9sKj3xc0tgGawk5pdKje"
-      #pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
+      pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
       #pageUrl: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-11"
-      pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-3"
-  #serviceAnnotations:
-  #  metallb.io/address-pool: kubernetes-vip-ip-pool
-  #  #metallb.io/allow-shared-ip: "kubernetes-vip-ip-pool"
+      #pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-3"
 
   persistence:
     dataDir:
