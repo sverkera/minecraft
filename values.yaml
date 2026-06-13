@@ -27,6 +27,7 @@ minecraft:
       #pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons"
       #pageUrl: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-11"
       pageUrl: "https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-3"
+      excludeMods: ["minemenu"]
 
   persistence:
     dataDir:
